@@ -1,0 +1,25 @@
+html { 
+    box-sizing: content-box;
+}
+
+html * {
+    box-sizing: inherit;
+}
+
+header{
+    background-color: #fff;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 2px 5px rgb(0,0,0,0.3);
+    z-index: 2;
+    position: relative;
+}
+
+header input{
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 10px 5px;
+    border-radius: 4px;
+    outline: none;
+}
