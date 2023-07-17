@@ -8,7 +8,7 @@ import './article.css';
 const App = () => {
   const [photos, setPhotos] = useState([]); //estado para guardar las fotos que se obtienen de la api de unsplash
   const open = (url) => window.open(url); //funcion para abrir la imagen en otra pestaña
-  //console.log({photos})
+  console.log({photos})
   return (
     <div>
       <header>
